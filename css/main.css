@@ -1,0 +1,22 @@
+/*导航栏样式  */
+.main-nav{
+    background: gray;
+    height: 50px;
+}
+
+.main-nav .logo{
+    display: inline-block;
+}
+
+.main-nav ul{
+     list-style: none; 
+     float: right;
+}
+
+.main-nav ul li{
+     display: inline-block;
+}
+
+.main-nav ul li a{
+    text-decoration:none;
+}
