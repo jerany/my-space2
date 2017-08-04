@@ -8,6 +8,10 @@
     display: inline-block;
 }
 
+.main-nav .logo a{
+    color: #fff;
+}
+
 .main-nav ul{
      list-style: none; 
      float: right;
@@ -19,4 +23,5 @@
 
 .main-nav ul li a{
     text-decoration:none;
+    color:#fff;
 }
