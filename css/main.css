@@ -1,7 +1,10 @@
 /*导航栏样式  */
 .main-nav{
-    background: gray;
-    height: 50px;
+    background:#C581FB;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .main-nav .logo{
@@ -10,6 +13,7 @@
 
 .main-nav .logo a{
     color: #fff;
+    text-decoration: none;
 }
 
 .main-nav ul{
@@ -19,9 +23,27 @@
 
 .main-nav ul li{
      display: inline-block;
+     margin-right: 20px;
 }
 
 .main-nav ul li a{
     text-decoration:none;
     color:#fff;
+}
+
+/*巨幕样式  */
+#my-space-header .banner{
+    height: 500px;
+    background: #FBD772;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#my-space-header .banner .inner{
+    position: relative;
+    top: 160px;
+}
+
+#my-space-header .banner .inner h2{
+    margin: 0;
 }
