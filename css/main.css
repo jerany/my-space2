@@ -1,6 +1,6 @@
 /*导航栏样式  */
 .main-nav{
-    background:#C581FB;
+    background:lightsteelblue;
     height: 40px;
     line-height: 40px;
     font-size: 16px;
@@ -34,7 +34,7 @@
 /*巨幕样式  */
 #my-space-header .banner{
     height: 500px;
-    background: #FBD772;
+    background:darkgrey;
     margin: 0 auto;
     text-align: center;
 }
@@ -42,6 +42,7 @@
 #my-space-header .banner .inner{
     position: relative;
     top: 160px;
+    margin: 0 100px;
 }
 
 #my-space-header .banner .inner h2{
